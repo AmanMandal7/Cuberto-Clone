@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "averta cy w10", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  background-color: #fff;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#nav {
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav img {
+  width: 100px;
+}
+
+#nav #right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #000000d5;
+  font-weight: 300;
+  font-size: 1.2vw;
+  letter-spacing: -0.5px;
+}
+
+#nav i {
+  font-size: 25px;
+}
+
+#home #homemain {
+  width: 100%;
+  padding: 12vw 15vw;
+}
+
+#homemain h1 {
+  font-weight: 500;
+  letter-spacing: -0.1vw;
+  font-size: 1.4vw;
+}
+
+.headings {
+  display: flex;
+  gap: 30px;
+}
+
+#homemain .headings h1 {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+  font-size: 6.5vw;
+  font-weight: 700;
+  letter-spacing: -4px;
+}
+
+#homelast {
+  padding: 5vw 15vw;
+  width: 80%;
+}
+
+#homelast p {
+  font-size: 1.5vw;
+  letter-spacing: 0.05vw;
+}
+
+#homelast p::selection {
+  color: #fff;
+  background-color: black;
+}
+
+/* Styling the second page  */
+#featured {
+  padding: 10vw 15vw;
+  margin-top: 4vw;
+}
+
+.fheading > h1 {
+  line-height: 1;
+  font-size: 4vw;
+  font-weight: 400;
+}
+
+.fheading > :nth-child(2) {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+
+#fimages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  margin-top: 8vw;
+}
+
+#fleft {
+  overflow: hidden;
+  width: 45%;
+  height: inherit;
+}
+
+#fleft .fleftelem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: inherit;
+}
+
+.fleftelem h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.fleftelem h1 {
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 12px 0;
+  font-size: 2.5vw;
+  letter-spacing: 0.2px;
+}
+
+.fleftelem h4 {
+  color: #0000006a;
+}
+
+#fright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+  height: inherit;
+}
+
+#fright .images {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+}
