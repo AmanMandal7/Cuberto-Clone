@@ -50,6 +50,7 @@ body {
 
 #nav i {
   font-size: 25px;
+  cursor: pointer;
 }
 
 #home #homemain {
@@ -159,4 +160,21 @@ body {
   width: 90%;
   height: 90%;
   background-color: red;
+}
+
+#btndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#btndiv button {
+  padding: 1.1vw 2.2vw;
+  border-radius: 100px;
+  border: 1px solid #b8b8b8;
+  background-color: #fff;
+  font-size: 0.9vw;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
