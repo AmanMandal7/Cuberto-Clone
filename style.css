@@ -178,3 +178,8 @@ body {
   font-weight: 600;
   letter-spacing: -0.5px;
 }
+
+#dev {
+  width: 100%;
+  padding: 5vw 15vw;
+}
