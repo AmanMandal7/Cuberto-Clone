@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "averta cy w10", sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+}
+
+*::selection {
+  color: #fff;
+  background-color: black;
 }
 
 html,
@@ -55,7 +62,7 @@ body {
 
 #home #homemain {
   width: 100%;
-  padding: 12vw 15vw;
+  padding: 12vw 13vw;
 }
 
 #homemain h1 {
@@ -78,18 +85,13 @@ body {
 }
 
 #homelast {
-  padding: 5vw 15vw;
+  padding: 1vw 13vw;
   width: 80%;
 }
 
 #homelast p {
   font-size: 1.5vw;
   letter-spacing: 0.05vw;
-}
-
-#homelast p::selection {
-  color: #fff;
-  background-color: black;
 }
 
 /* Styling the second page  */
@@ -179,7 +181,59 @@ body {
   letter-spacing: -0.5px;
 }
 
+/* Styling the dev part  */
+
 #dev {
   width: 100%;
   padding: 5vw 15vw;
+}
+
+#dev h1 {
+  font-size: 3.8vw;
+  font-weight: 400;
+  width: 50%;
+  line-height: 1;
+}
+
+#dev p {
+  font-size: 1.2vw;
+  margin-top: 2.5vw;
+  width: 60%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+#slides {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 8vw;
+}
+
+.slide {
+  width: 30%;
+}
+
+.slide .img {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.slide .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide .tag {
+  margin: 25px 0;
+  padding: 10px 22px;
+  background-color: rgba(237, 234, 234, 0.838);
+  width: fit-content;
+  border-radius: 100px;
+}
+
+.slide h3 {
+  font-weight: 400;
 }
